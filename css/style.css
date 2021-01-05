@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.leftside{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: tomato;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+}
+.leftside img{
+    width: 150px;
+    height: 150px;
+    border: 7px solid rgb(255, 123, 100);
+    border-radius: 50%;
+}
+.leftside ul{
+    margin-top: 30px;
+}
+.leftside ul li{
+    padding: 8px 0;
+}
+.leftside ul li a{
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.rightside{
+    margin-left: 20%;
+}
+.container{
+    padding: 100px 50px 0 50px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+#section1{
+    height: 100vh;
+}
+#section1 span{
+    color: #bd5d38;
+}
+#section1 h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #343a40;
+}
+#section1 p{
+    margin-top: 30px;
+    color: #495057;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#section1 ul li{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #495057;
+}
+#section1 ul li i{
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+}
+#section2{
+    width: 100%;
+    float: left;
+}
+#section2 h1{
+    font-size: 40px;
+    color: #495057;
+    margin-bottom: 30px;
+}
+.sub-section{
+    margin-bottom: 40px;
+}
+.sub-section h3{
+    font-size: 27px;
+    color: #495057;
+}
+.sub-section h5{
+    font-size: 18px;
+    color: #606264;
+    margin-bottom: 20px;
+}
+.sub-section p{
+    font-size: 15px;
+    color: #606264;
+    width: 80%;
+}
+.container .date{
+    float: right;
+    color: tomato;
+}
+#section4 h5{
+    font-size: 21px;
+    color: #606264;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+#section4 ul li{
+    font-size: 15px;
+    color: #606264;
+    margin-bottom: 5px;
+}
